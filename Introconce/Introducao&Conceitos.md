@@ -52,8 +52,28 @@ Em um outro cenário nesse mesmo projeto, surge a oportunidade de trabalhar com 
 
 E então esse é um dos grandes motivos para que em qualquer projeto seja utilizado um VCS (Version Control System).
 
-O git é como se fosse uma máquina de voltar no tempo, onde você consegue rastrear todas as alterações realizadas em um código.
+O git é como se fosse uma máquina de voltar no tempo, onde você consegue rastrear todas as alterações realizadas em seu código.
 
+# **Os Três Estados**
+
+O Git tem três estados principais que seus arquivos podem estar: committed, modificado (modified) e preparado (staged). Committed significa que os dados estão armazenados de forma segura em seu banco de dados local. Modificado significa que você alterou o arquivo, mas ainda não fez o commit no seu banco de dados. Preparado significa que você marcou a versão atual de um arquivo modificado para fazer parte de seu próximo commit.
+Isso nos leva a três seções principais de um projeto Git: o diretório Git, o diretório de trabalho e área de preparo.
+
+![Diretório de trabalho, área de preparo, e o diretório Git.](./imagens/direcgit.png)
+
+O fluxo de trabalho básico Git:
+
+1. Você modifica arquivos no seu diretório de trabalho.
+2. Você prepara os arquivos, adicionando imagens deles à sua área de preparo.
+3. Você faz commit, o que leva os arquivos como eles estão na área de preparo e armazena essa imagens de forma permanente para o diretório do Git.
+
+# **Instalação do Git**
+
+Geralmente nos sistemas operacionais de distribuição Linux e MacOS já vem instaldo. Caso queira realizar a instalação selecione o sistema operacional e siga os passos descritos [nesta página](https://git-scm.com/downloads).
+
+Para realizar a instalação no sistema operacional Windows faça o download através do [link](https://git-scm.com/download/win). 
+
+Para os demais passos, vamos utilizar o sistema operacional MacOs. Para os demais sistemas operacionais os comandos são praticamente os mesmos.
 
 
 
