@@ -67,6 +67,8 @@ O fluxo de trabalho básico Git:
 2. Você prepara os arquivos, adicionando imagens deles à sua área de preparo.
 3. Você faz commit, o que leva os arquivos como eles estão na área de preparo e armazena essa imagens de forma permanente para o diretório do Git.
 
+
+
 # **Instalação do Git**
 
 Geralmente nos sistemas operacionais de distribuição Linux e MacOS já vem instaldo. Caso queira realizar a instalação selecione o sistema operacional e siga os passos descritos [nesta página](https://git-scm.com/downloads).

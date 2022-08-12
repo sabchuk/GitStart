@@ -109,5 +109,69 @@ git difftool
 ```
 ![Git difftool](./imagens/gitifftool.png)
 
-# **Realizando o commit das modificações - Git commit**
+# **Realizando o commit das alterações - Git commit**
+
+
+Neste momento os seus arquivos estão na área de stage isso permite que você faça o commit para ser enviado as suas modificações.
+
+No nosso cenário, possuimos dois arquivos na área de stage e um modificação que ainda não foi adicionada para o commit.
+
+![Git stage status](./imagens/gitstagestatus.png)
+
+Vamos manter desta forma, realize o comando no seu terminal:
+
+```
+git commit
+```
+
+Será aberto para você, um editor de texto definido para uso no seu terminal. 
+
+![Git editor de texto](./imagens/giteditortexto.png)
+
+Na primeira linha, ja te informa que você pode entrar com uma mensagem. Essa mensagem geralmente é indicado a issue que esta trabalhando e principalmente, em poucas palavras, indicar o que representa esse commit. Exemplo: Add roles finance class
+
+Para inserir a mensagem, basta você apertar a tecla _i_ para entrar no modo insert e então preencher o texto desejado. Para sair basta apertar a tecla _esc_, depois _:_ e então _wq_ para salvar e sair do editor de texto.
+
+O output deverá ser mais ou menos da seguinte forma:
+
+```
+[master (root-commit) bbe750a] teste
+ 2 files changed, 1 insertion(+)
+ create mode 100644 contact.index
+ create mode 100644 index.html
+```
+
+Execute o comando _git status_ e você vai ver que os dois arquivos que realizamos o commit já não aparecem:
+
+
+![Git status commmit](./imagens/gitstatuscommit.png)
+
+Isso demonstra que você acaba de criar seu primeiro commit! Veja que a saída do comando fornece algumas informações: em qual branch foi feito o commit (master), seu checksum SHA-1 (463dc4f), quantos arquivos foram alterados e estatísticas sobre o número de linhas adicionadas e removidas.
+
+**Lembre-se de que o commit grava o snapshot que você deixou na área de stage.** Qualquer alteração que você não tiver mandado para o stage permanecerá como estava, em seu lugar; você pode executar outro commit para adicioná-la ao seu histórico. Toda vez que você executa um commit, você está gravando um snapshot do seu projeto que você pode usar posteriormente para fazer comparações, ou mesmo restaurá-lo.
+
+Uma outra alternativa ao invés de você abrir o editor de texto para inserir um comentário é o argumentos _-m_. Veja:
+
+```
+git commit -m "Add roles finance class"
+```
+
+Output
+
+```
+[master db22c46] Add roles finance class
+ 1 file changed, 1 insertion(+)
+```
+
+Uma alternativa muito utilizada é a possibilidade de usar os argumentos _-a_ e _-m_. Esses argumentos permite que você já adicione os arquivos para o commit e junto adiciona o seu comentario. Veja o comando:
+
+```
+git commit -a -m 'added new benchmarks'
+```
+Output
+
+```
+[master 47a8525] added new benchmarks
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+```
 
