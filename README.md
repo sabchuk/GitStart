@@ -11,7 +11,7 @@ Foi produzido este material que trata dos principais conceitos básicos referent
 
 
 ## Exercícios guiados
-1. [Exercício 1](exercicios/1_ExerciciosGuiados.md)
+1. [Exercício 1](Exercicios/GitQuiz.md)
 
 
 ## Desafios
