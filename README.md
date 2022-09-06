@@ -6,6 +6,8 @@ Foi produzido este material que trata dos principais conceitos básicos referent
 
 ## Sumário
 1. [Introdução e conceitos](Introconce/Introducao&Conceitos.md)
+2. [Primeiros contatos](FirstStep/PrimerosContatos.md)
+3. [Introdução contatos](FundamentosComandos/FundamentosComandos.md)
 
 
 ## Exercícios guiados
