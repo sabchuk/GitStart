@@ -25,14 +25,14 @@ b) Uma linguagem de programação.  </p>
 c) Um apelido para o GitHub.  </p>
 d) Uma plataforma de repositório remoto. </p>
 
-R:
+R: a
 
 2 - Git é o mesmo que GitHub.
 
 a) Verdadeiro </p>
 b) Falso </p>
 
-R:
+R: b
 
 3 - Qual é o comando para obter a versão instalada do Git?
 
@@ -41,7 +41,7 @@ b) getGitVersion </p>
 c) gitVersion </p>
 d) git help version </p>
 
-R:
+R: a
 
 4 - Qual opção você deve usar para definir o nome de usuário padrão para cada repositório em seu computador?
 
@@ -50,7 +50,7 @@ b) --A </p>
 c) --all </p>
 d) Não há necessidade de especificar, esse é o padrão. </p>
 
-R:
+R: a
 
 5 - Qual é o comando para definir o email do usuário para o repositório atual?
 
@@ -58,7 +58,7 @@ a) git config user.email </p>
 b) git email.user </p>
 c) git config email </p>
 
-R: 
+R: a
 
 6 - Qual é o comando para adicionar todos os arquivos e alterações da pasta atual ao ambiente de teste do repositório Git?
 
@@ -66,7 +66,7 @@ a) git add  </p>
 b) git add --files </p>
 c) git add --all </p>
 
-R: 
+R: c
 
 7 - Qual é o comando para obter o status atual do repositório Git?
 
@@ -75,7 +75,7 @@ b) git config --status </p>
 c) git getStatus </p>
 d) --status </p>
 
-R:
+R: a
 
 8 - Qual é o comando para inicializar o Git no repositório atual?
 
@@ -84,14 +84,14 @@ b) start git </p>
 c) initialize git </p>
 d) git start </p>
 
-R:
+R: a
 
 9 - O Git adiciona automaticamente novos arquivos ao repositório e começa a rastreá-los.
 
 a) Verdadeiro </p>
 b) Falso </p>
 
-R:
+R: b
 
 10 - O histórico de confirmação do Git é excluído automaticamente:
 
@@ -100,7 +100,7 @@ b) A cada 2 semanas. </p>
 c) Todo ano. </p>
 d) Todo mês. </p>
 
-R:
+R: a
 
 11 - Qual é o comando para confirmar as alterações preparadas para o repositório Git?
 
@@ -109,7 +109,7 @@ b) git snapshot </p>
 c) git com </p>
 d) git save </p>
 
-R:
+R: a
 
 12 - Qual é o comando para fazer commit com a mensagem "New email":
 
@@ -118,8 +118,8 @@ b) git commit -mess "New email" </p>
 c) git commit -m "New email"  </p>
 d) git commit message "New email" </p>
 
-R:
-
+R: c
+ 
 13 - Qual é o comando para visualizar o histórico de commits do repositório?
 
 a) git log </p>
@@ -127,7 +127,7 @@ b) git commits </p>
 c) git history </p>
 d) git --full-log </p>
 
-R:
+R: a
 
 14 - Qual é o comando para ver as opções disponíveis para o comando commit?
 
@@ -136,7 +136,7 @@ b) gitHelp commit </p>
 c) git commit -help </p>
 d) git commitHelp </p>
 
-R:
+R: c
 
 15 - No Git, um branch é:
 
@@ -145,7 +145,7 @@ b) Um pequeno bastão de madeira que você pode usar para digitar comandos. </p>
 c) Uma versão separada do repositório principal. </p>
 d) Nada, é uma palavra sem sentido. </p>
 
-R:
+R: c
 
 16 - Qual é o comando para criar um novo branch chamado "new-email"?
 
@@ -154,7 +154,7 @@ b) git newBranch "novo-e-mail" </p>
 c) git add branch "new-email" </p>
 d) git branch new-email </p>
 
-R:
+R: b
 
 17 - Qual é o comando para mover para a ramificação chamada "new-email"?
 
@@ -163,7 +163,7 @@ b) git branch new-email </p>
 c) git branch -move new-email </p>
 d) git checkout new-email </p>
 
-R:
+R: c
 
 18 - Qual é a opção, ao mudar para uma ramificação, de criar a ramificação caso ela não exista?
 
@@ -172,7 +172,7 @@ b) -new </p>
 c) -newbranch </p>
 d) -all </p>
 
-R:
+R: a
 
 19 - Qual é o comando para mesclar o branch atual com o branch "new-email"?
 
@@ -180,7 +180,7 @@ a) git commit -merge new-email </p>
 b) git add new-email </p>
 c) git merge new-email  </p>
 
-R:
+R: c
 
 20 - Qual é o comando para excluir o branch "new-email"
 
@@ -189,7 +189,7 @@ b) git delete new-email </p>
 c) git gone new-email </p>
 d) git branch -d new-email  </p>
 
-R:
+R: d
 
 21 - Qual é o comando para adicionar o repositório remoto "https://abc.xyz/d/e.git" como "origem"?
 
@@ -198,7 +198,7 @@ b) git remote add origin https://abc.xyz/d/e.git  </p>
 c) git remote https://abc.xyz/d/e.git </p>
 d) git add origin https://abc.xyz/d/e.git </p>
 
-R:
+R: d
 
 22 - Qual é o comando para enviar o repositório atual para a origem remota?
 
@@ -207,7 +207,7 @@ b) git merge remote </p>
 c) git remote push </p>
 d) git push origin </p>
 
-R:
+R: d
 
 23 - Qual é o comando para obter todo o histórico de alterações do repositório remoto "origin"?
 
@@ -216,7 +216,7 @@ b) git busca origem </p>
 c) git status origem remota </p>
 d) ajuda do git origin </p>
 
-R:
+R: c
 
 24 - Qual é o comando para mostrar as diferenças entre o branch atual e o branch "new-email"?
 
@@ -225,7 +225,7 @@ b) git status novo e-mail </p>
 c) git diff novo-email </p>
 d) git altera novo-e-mail </p>
 
-R:
+R: c
 
 25 - Git Pull é uma combinação de:
 
@@ -233,5 +233,5 @@ a) add and commit </p>
 b) branch and checkout </p>
 c) fetch and merge  </p>
 
-R:
+R:b
 
